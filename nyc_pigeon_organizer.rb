@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
     # val => hash of color
     val.each do |k, v|
       #goes through every purple, then gender, than lives.
+      v.each 
       binding.pry
       []
     end
