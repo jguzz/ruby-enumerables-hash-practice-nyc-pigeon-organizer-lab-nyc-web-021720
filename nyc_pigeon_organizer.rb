@@ -4,7 +4,9 @@ def nyc_pigeon_organizer(data)
 
   data.each do |key, val|
     # key => :color
-    # val => hash of color 
-    val.each do ||
+    # val => hash of color
+    val.each do |k, v|
+      binding.pry
+    end
   end
 end
