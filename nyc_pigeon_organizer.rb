@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  #Adds the gender to each bird.  
+  #Adds the gender to each bird.
   data[:gender].each do |gender, name|
     name.each do |bird|
       x.each do |y|
@@ -40,6 +40,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+  #Adds the birds location to each bird.
   data[:lives].each do |location, name|
     name.each do |bird|
       x.each do |y|
