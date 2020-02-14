@@ -15,9 +15,8 @@ def nyc_pigeon_organizer(data)
           :gender => [],
           :lives => []
         }
-          binding.pry
       end
     end
   end
-
+  x = pigeon_data.keys
 end
