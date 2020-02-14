@@ -18,13 +18,23 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  #Adds the birds color to each bird. 
+
+  #Adds the birds color to each bird.
   x = pigeon_data.keys
   data[:color].each do |color, name|
     name.each do |bird|
       x.each do |y|
         if bird == y
           pigeon_data[y][:color] << color.to_s
+        end
+      end
+    end
+  end
+  data[:gender].each do |gender, name|
+    name.each do |gen|
+      x.each do |y|
+        if gen == y
+          pigeon_data[y][:gender] << gender.to_s
         end
       end
     end
