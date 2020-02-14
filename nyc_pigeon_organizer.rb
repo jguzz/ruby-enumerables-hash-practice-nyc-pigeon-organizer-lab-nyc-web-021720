@@ -43,7 +43,7 @@ def nyc_pigeon_organizer(data)
     name.each do |bird|
       x.each do |y|
         if bird == y
-          pigeon_data[y][:lives] << lives.to_s
+          pigeon_data[y][:lives] << location.to_s
         end
       end
     end
