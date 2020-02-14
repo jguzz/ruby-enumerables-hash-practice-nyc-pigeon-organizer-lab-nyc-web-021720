@@ -18,6 +18,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+  #Adds the birds color to each bird. 
   x = pigeon_data.keys
   data[:color].each do |color, name|
     name.each do |bird|
