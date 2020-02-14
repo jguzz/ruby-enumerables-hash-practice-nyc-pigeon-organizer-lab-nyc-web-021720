@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     val.each do |attribute, info|
       #goes through every purple, then gender, than lives.
       info.each do |name|
-
+        binding.pry
       end
     end
   end
