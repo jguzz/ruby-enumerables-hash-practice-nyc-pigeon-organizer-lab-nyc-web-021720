@@ -8,7 +8,11 @@ def nyc_pigeon_organizer(data)
     val.each do |attribute, info|
       #goes through every purple, then gender, than lives.
       info.each do |names|
-        binding.pry
+        pigeon_data[names] = {
+          color: [],
+          gender: [],
+          lives: []
+        }
       end
     end
   end
