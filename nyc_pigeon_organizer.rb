@@ -9,9 +9,9 @@ def nyc_pigeon_organizer(data)
       #goes through every purple, then gender, than lives.
       info.each do |names|
         pigeon_data[names] = {
-          color: [],
-          gender: [],
-          lives: []
+          :color => [],
+          :gender => [],
+          :lives => []
         }
       end
     end
