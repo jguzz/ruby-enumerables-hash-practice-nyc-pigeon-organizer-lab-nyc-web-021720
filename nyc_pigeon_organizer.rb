@@ -31,10 +31,19 @@ def nyc_pigeon_organizer(data)
     end
   end
   data[:gender].each do |gender, name|
-    name.each do |gen|
+    name.each do |bird|
       x.each do |y|
-        if gen == y
+        if bird == y
           pigeon_data[y][:gender] << gender.to_s
+        end
+      end
+    end
+  end
+  data[:lives].each do |location, name|
+    name.each do |bird|
+      x.each do |y|
+        if bird == y
+          pigeon_data[y][:color] << color.to_s
         end
       end
     end
