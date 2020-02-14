@@ -2,6 +2,8 @@ require "pry"
 def nyc_pigeon_organizer(data)
   # write your code here!
   pigeon_data = {}
+
+  #Sets up each pigeons name and hash structure.
   data.each do |key, val|
     # key => :color
     # val => hash of color
